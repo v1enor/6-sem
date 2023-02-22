@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>XMLHttpRequest Example</title>
+</head>
+<body>
+  <h1>Фамилия Имя Отчество</h1>
+  <p id="result"></p>
+  <script>
+    const xhr = new XMLHttpRequest();
+    xhr.open('GET', '/api/name');
+    xhr.onload = () => {
+      document.getElementById('result').textContent = xhr.responseText;
+    };
+    xhr.send();
+  </script>
+</body>
+</html>

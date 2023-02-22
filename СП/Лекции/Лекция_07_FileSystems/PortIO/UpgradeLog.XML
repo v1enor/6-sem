@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="PortIO">
+</Property><Property Name="Файл решения" Value="D:\Лекции\СП2013\Лекция_07_FileSystems\PortIO\PortIO.sln">
+</Property><Property Name="Файл параметров пользователя" Value="D:\Лекции\СП2013\Лекция_07_FileSystems\PortIO\PortIO.suo">
+</Property><Property Name="Date" Value="22 сентября 2013 г.">
+</Property><Property Name="Time" Value="19:59">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="PortIO.sln" Description="Успешно создана резервная копия файла D:\Лекции\СП2013\Лекция_07_FileSystems\PortIO\PortIO.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="PortIO.suo" Description="Успешно создана резервная копия файла D:\Лекции\СП2013\Лекция_07_FileSystems\PortIO\PortIO.suo.old">
+</Event><Event ErrorLevel="0" Project="PortIO" Source="PortIO\PortIO.vcproj" Description="Converting project file 'D:\Лекции\СП2013\Лекция_07_FileSystems\PortIO\PortIO\PortIO.vcproj'.">
+</Event><Event ErrorLevel="1" Project="PortIO" Source="PortIO\PortIO.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="PortIO" Source="PortIO\PortIO.vcproj" Description="Done converting to new project file 'D:\Лекции\СП2013\Лекция_07_FileSystems\PortIO\PortIO\PortIO.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="PortIO" Source="PortIO\PortIO.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="PortIO.sln" Description="Преобразование решения успешно завершено">
+</Event><Event ErrorLevel="3" Project="" Source="PortIO.sln" Description="Converted">
+</Event></UpgradeLog>

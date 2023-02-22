@@ -1,0 +1,32 @@
+C:\Studing\2sem\RIS\TestApp\TestApp\bin\Debug\net5.0\TestApp.exe
+C:\Studing\2sem\RIS\TestApp\TestApp\bin\Debug\net5.0\TestApp.deps.json
+C:\Studing\2sem\RIS\TestApp\TestApp\bin\Debug\net5.0\TestApp.runtimeconfig.json
+C:\Studing\2sem\RIS\TestApp\TestApp\bin\Debug\net5.0\TestApp.runtimeconfig.dev.json
+C:\Studing\2sem\RIS\TestApp\TestApp\bin\Debug\net5.0\TestApp.dll
+C:\Studing\2sem\RIS\TestApp\TestApp\bin\Debug\net5.0\ref\TestApp.dll
+C:\Studing\2sem\RIS\TestApp\TestApp\bin\Debug\net5.0\TestApp.pdb
+C:\Studing\2sem\RIS\TestApp\TestApp\obj\Debug\net5.0\TestApp.csproj.AssemblyReference.cache
+C:\Studing\2sem\RIS\TestApp\TestApp\obj\Debug\net5.0\TestApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Studing\2sem\RIS\TestApp\TestApp\obj\Debug\net5.0\TestApp.AssemblyInfoInputs.cache
+C:\Studing\2sem\RIS\TestApp\TestApp\obj\Debug\net5.0\TestApp.AssemblyInfo.cs
+C:\Studing\2sem\RIS\TestApp\TestApp\obj\Debug\net5.0\TestApp.csproj.CoreCompileInputs.cache
+C:\Studing\2sem\RIS\TestApp\TestApp\obj\Debug\net5.0\TestApp.dll
+C:\Studing\2sem\RIS\TestApp\TestApp\obj\Debug\net5.0\ref\TestApp.dll
+C:\Studing\2sem\RIS\TestApp\TestApp\obj\Debug\net5.0\TestApp.pdb
+C:\Studing\2sem\RIS\TestApp\TestApp\obj\Debug\net5.0\TestApp.genruntimeconfig.cache
+X:\BSTU\3 year\6 semestr\РИС\лаб2\TestApp\TestApp\bin\Debug\net5.0\TestApp.exe
+X:\BSTU\3 year\6 semestr\РИС\лаб2\TestApp\TestApp\bin\Debug\net5.0\TestApp.deps.json
+X:\BSTU\3 year\6 semestr\РИС\лаб2\TestApp\TestApp\bin\Debug\net5.0\TestApp.runtimeconfig.json
+X:\BSTU\3 year\6 semestr\РИС\лаб2\TestApp\TestApp\bin\Debug\net5.0\TestApp.runtimeconfig.dev.json
+X:\BSTU\3 year\6 semestr\РИС\лаб2\TestApp\TestApp\bin\Debug\net5.0\TestApp.dll
+X:\BSTU\3 year\6 semestr\РИС\лаб2\TestApp\TestApp\bin\Debug\net5.0\ref\TestApp.dll
+X:\BSTU\3 year\6 semestr\РИС\лаб2\TestApp\TestApp\bin\Debug\net5.0\TestApp.pdb
+X:\BSTU\3 year\6 semestr\РИС\лаб2\TestApp\TestApp\obj\Debug\net5.0\TestApp.csproj.AssemblyReference.cache
+X:\BSTU\3 year\6 semestr\РИС\лаб2\TestApp\TestApp\obj\Debug\net5.0\TestApp.GeneratedMSBuildEditorConfig.editorconfig
+X:\BSTU\3 year\6 semestr\РИС\лаб2\TestApp\TestApp\obj\Debug\net5.0\TestApp.AssemblyInfoInputs.cache
+X:\BSTU\3 year\6 semestr\РИС\лаб2\TestApp\TestApp\obj\Debug\net5.0\TestApp.AssemblyInfo.cs
+X:\BSTU\3 year\6 semestr\РИС\лаб2\TestApp\TestApp\obj\Debug\net5.0\TestApp.csproj.CoreCompileInputs.cache
+X:\BSTU\3 year\6 semestr\РИС\лаб2\TestApp\TestApp\obj\Debug\net5.0\TestApp.dll
+X:\BSTU\3 year\6 semestr\РИС\лаб2\TestApp\TestApp\obj\Debug\net5.0\ref\TestApp.dll
+X:\BSTU\3 year\6 semestr\РИС\лаб2\TestApp\TestApp\obj\Debug\net5.0\TestApp.pdb
+X:\BSTU\3 year\6 semestr\РИС\лаб2\TestApp\TestApp\obj\Debug\net5.0\TestApp.genruntimeconfig.cache

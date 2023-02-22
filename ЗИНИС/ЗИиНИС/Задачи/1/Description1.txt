@@ -1,0 +1,3 @@
+Somebody left you a message. Try to find the key.
+
+Flag format: CSI{key}

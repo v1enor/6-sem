@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>jQuery Example</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <h1>Фамилия, имя и отчество: <span id="name"></span></h1>
+    <script>
+      $(document).ready(() => {
+        $.ajax({
+          url: '/api/name',
+          type: 'GET',
+          success: (data) => {
+            $('#name').text(data);
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
