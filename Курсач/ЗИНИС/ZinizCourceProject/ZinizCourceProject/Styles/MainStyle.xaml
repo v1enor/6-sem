@@ -1,0 +1,86 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style TargetType="Button">
+        <Setter Property="TextOptions.TextFormattingMode" Value="Display"/>
+        <Setter Property="Margin" Value="10"/>
+        <Setter Property="Background" Value="#C0C0C0"/>
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="FontFamily" Value="MS Sans Seri"/>
+        <Setter Property="Effect">
+            <Setter.Value>
+                <DropShadowEffect 
+                        BlurRadius="0" 
+                        Color="Black" 
+                        Direction="310" 
+                        ShadowDepth="2" />
+            </Setter.Value>
+        </Setter>
+        <Setter 
+            Property="FontFamily" 
+            Value="../Assets/Fonts/#Fixedsys Excelsior"/>
+        <Setter Property="Padding" Value="10 0"></Setter>
+        <Setter Property="MinHeight" Value="20"></Setter>
+        <Setter Property="MaxHeight" Value="35"></Setter>
+        <Setter Property="MinWidth" Value="100"></Setter>
+        <Setter Property="BorderBrush">
+            <Setter.Value>
+                <SolidColorBrush Color="#ffff" Opacity="0.8"/>
+            </Setter.Value>
+        </Setter>
+
+    </Style>
+
+
+    <Style TargetType="{x:Type Window}">
+        <Setter Property="Background" Value="#C0C0C0" />
+    </Style>
+    <Style TargetType="Frame">
+        <Setter Property="NavigationUIVisibility" Value="Hidden"></Setter></Style>
+
+    <Style TargetType="TextBox">
+        <Setter 
+            Property="FontFamily" 
+            Value="../Assets/Fonts/#Fixedsys Excelsior"/>
+        <Setter 
+            Property="FontSize" 
+            Value="16"/>
+        <Setter Property="Background" Value="White"></Setter>
+        <Setter Property="BorderBrush" Value="#808080"></Setter>
+        <Setter Property="TextWrapping" Value="Wrap"></Setter>
+        <Setter Property="VerticalScrollBarVisibility" Value="Auto"></Setter>
+    </Style>
+
+    <Style TargetType="Label">
+        <Setter 
+            Property="FontFamily" 
+            Value="../Assets/Fonts/#Fixedsys Excelsior"/>
+        <Setter 
+            Property="FontSize" 
+            Value="16"/>
+        <Setter Property="VerticalAlignment" Value="Center"></Setter>
+        <Setter
+            Property="Padding"
+            Value="0">
+        </Setter>
+        <Setter
+            Property="Foreground"
+            Value="White">
+            
+        </Setter>
+    </Style>
+
+
+    <LinearGradientBrush x:Key="LinearGradientBackground" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="#000078" Offset="0"/>
+        <GradientStop Color="#1084D0" Offset="1"/>
+    </LinearGradientBrush>
+
+    <Style x:Key="ImagClose" TargetType="Image">
+        <Setter Property="RenderOptions.BitmapScalingMode" Value="NearestNeighbor" />
+        <Setter Property="Stretch" Value="Uniform"></Setter>
+        
+    </Style>
+        
+
+</ResourceDictionary>
+

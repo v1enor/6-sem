@@ -1,0 +1,62 @@
+﻿<Window x:Class="ZinizCourceProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZinizCourceProject.View.Pages"
+        mc:Ignorable="d"
+        xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls" xmlns:renderers="clr-namespace:SharpVectors.Renderers;assembly=SharpVectors.Rendering.Gdi"
+        WindowStyle="None"
+        Background="DarkCyan"
+        Title="MainWindow" MinHeight="500" MinWidth="1000">
+    <WindowChrome.WindowChrome>
+        <WindowChrome CaptionHeight="15" >
+
+        </WindowChrome>
+    </WindowChrome.WindowChrome>
+
+
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="200*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="5*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Margin="2" x:Name="WindowChromeStack" Background="{StaticResource LinearGradientBackground}" Grid.ColumnSpan="2">
+            <Label Grid.Row="0"
+            Content="ILUSHA"
+            Foreground="White"
+            Padding="7 0"
+            FontSize="14"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Left" >
+            </Label>
+        </Grid>
+
+        <StackPanel Grid.Row="2" Margin="0 10" Name="LeftPanel" Orientation="Vertical"  >
+
+            <Button Content="AES" MinHeight="20" MinWidth="100" Click="AESBtnClick" />
+            <Button Content="Twofish" MinHeight="20" MinWidth="100" Click="TwofishBtnClick"/>
+            <Button Content="Serpent" MinHeight="20" MinWidth="100" Click="SerpentBtnClick"/>
+
+            <Label HorizontalAlignment="Center" x:Name="MethodName" Margin="0 5"></Label>
+        </StackPanel>
+
+
+        <Frame x:Name="MainFrame"  Grid.Row="1" Grid.Column="1" Padding="0 0 20 0"></Frame>
+        
+        <Viewbox Grid.Column="1"  HorizontalAlignment="Right" Margin="5" MaxHeight="20">
+            <StackPanel  Margin="0 0 5 0" x:Name="WindowBtn" Orientation="Horizontal" VerticalAlignment="Center" >
+                <Image MouseDown="HideBtnClick"  HorizontalAlignment="Stretch"  Style="{StaticResource ImagClose}" Source="\Assets\Icons\HideIcon.png"/>
+                <Image MouseDown="FullBtnClick"  Style="{StaticResource ImagClose}" Source="\Assets\Icons\FullScreenIcon.png" />
+                <Image MouseDown="CloseClick"  Style="{StaticResource ImagClose}" Margin=" 1 0 0 0"  Source="\Assets\Icons\CloseIcon.png"/>
+            </StackPanel>
+            
+        </Viewbox>
+    </Grid>
+</Window>

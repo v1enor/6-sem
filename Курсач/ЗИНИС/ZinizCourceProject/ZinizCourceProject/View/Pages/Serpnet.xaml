@@ -1,0 +1,62 @@
+﻿<Page x:Class="ZinizCourceProject.View.Pages.Serpnet"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZinizCourceProject.View.Pages" 
+        xmlns:viewmodel="clr-namespace:ZinizCourceProject.ViewModel" 
+       
+      Title="Twofish" MinHeight="450" MinWidth="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="260*"/>
+            <RowDefinition Height="45*"/>
+        </Grid.RowDefinitions>
+
+        <Label Margin="0">Ключ</Label>
+        <TextBox Grid.Row="1" Text="{Binding Key, Mode=TwoWay}"></TextBox>
+
+
+        <StackPanel Grid.Column="1" Orientation="Horizontal">
+
+            <Label Grid.Column="1" Margin="20 0 0 0">Время шифрования</Label>
+            <Label Grid.Column="1" Margin="106 0 0 0">Время дешифрования</Label>
+        </StackPanel>
+
+        <Label Grid.Column="1" Grid.Row="1" Content="{Binding EncryptionTime, Mode=TwoWay}"  Margin="20 0 0 0" VerticalAlignment="Top"></Label>
+        <Label Grid.Column="1" Grid.Row="1" Content="{Binding DecryptionTime, Mode=TwoWay}"  Margin="255 0 0 0" VerticalAlignment="Top" ></Label>
+        <Label Grid.Column="1" Content="{Binding Text.Length, ElementName=PlainTextBox, StringFormat='Text Length: {0}'}" Margin="530,0,-530,0"  />
+        <Label Grid.Column="1" Content="Длина текста: " Margin="418,0,-418,0"  />
+
+
+
+        <Label Grid.Column="0" Grid.Row="2">Сообщение</Label>
+        <TextBox x:Name="PlainTextBox" Text="{Binding PlainText, Mode=TwoWay}" Grid.Column="0" Grid.Row="2" Margin="0,38,0,0" Grid.RowSpan="2"></TextBox>
+
+        <Label Grid.Column="1" Grid.Row="2">Зашифрование</Label>
+        <TextBox  Text="{Binding CipherText, Mode=TwoWay}" Grid.Column="1" Grid.Row="2" Margin="0,38,0,0" Grid.RowSpan="2"></TextBox>
+
+        <StackPanel HorizontalAlignment="Center" Orientation="Horizontal"  Grid.Row="4" Name="IOButtons">
+            <Button Command="{Binding ClearMsgCommand}" Width="56" >Очистить</Button>
+            <Button Command="{Binding EncryptCommand}">Зашифровать</Button>
+            <Button Command="{Binding OpenFileCommand}" >Прочитать из файла</Button>
+            <Button Command="{Binding SaveToFileCommand}">Записать в файл</Button>
+        </StackPanel>
+
+
+        <StackPanel HorizontalAlignment="Center" Orientation="Horizontal"  Grid.Row="4" Grid.Column="1" Name="CodeDecodeButons">
+            <Button Command="{Binding ClearCipherCommand}">Очистить</Button>
+            <Button Command="{Binding DecryptCommand}">Расшифровать</Button>
+            <Button Command="{Binding OpenCipherFileCommand}" >Прочитать из файла</Button>
+            <Button Command="{Binding SaveCipherToFileCommand}">Записать в файл</Button>
+        </StackPanel>
+
+    </Grid>
+</Page>

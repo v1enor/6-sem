@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Upload Image</title>
+    <style>
+        .button{
+            width: 200px;
+        }
+       
+
+        .input-file-btn {
+        
+            width: 200px;
+            padding: 20;
+            background-color: coral;
+            text-align: center;
+            border: wheat;
+            
+        }
+        .input-file-text {
+        
+            line-height: 40px;
+         
+        }
+        .input-file input[type=file] {
+            position: absolute;
+            z-index: -1;
+            opacity: 0;
+            display: block;
+            width: 0;
+            height: 0;
+        
+        }
+        
+        .input-file input[type=file]:focus + .input-file-btn {
+            box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+        }
+
+        .text{
+            width: 200px;
+        }
+      
+
+        .input-file input[type=file]:disabled + .input-file-btn {
+            background-color: #eee;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+	<h1>Добавить изображение черепашке</h1>
+    <form action="/api/turtles/upload" method="post" enctype="multipart/form-data" >
+    <div class="container">
+
+        <input class='text' type="text" name="name">
+        <label class="input-file">
+        <input type="file" name="image">
+        <span class="input-file-btn">Выберите файл</span>           
+    </label>
+        
+    <button class="button" type="submit">Отправить</button>
+    </div>
+    </form>
+</body>
+</html>

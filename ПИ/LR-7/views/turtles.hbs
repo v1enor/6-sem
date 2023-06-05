@@ -1,0 +1,21 @@
+<h1>Список черепашек</h1>
+
+{{#if result.length}}
+
+<ul>
+{{#each result}}
+    <li>      
+        <span>{{dataValues.turtles_name}}</span>
+        <span>{{dataValues.turtles_color}}</span>   
+    </li>
+{{/each}}
+
+</ul>
+{{else}}
+<p> Черепашек нет!</p>
+{{/if}}
+ 
+
+<a href="?page={{prevPage}}">Предыдущая</a>
+<span>{{currentPage}}</span>
+<a href="?page={{nextPage}}">Следующая</a>

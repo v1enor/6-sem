@@ -1,0 +1,11 @@
+{
+  "name": "m0604_supermegailyaedit",
+  "version": "1.0.0",
+  "description": "nice lab",
+  "main": "m0603.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

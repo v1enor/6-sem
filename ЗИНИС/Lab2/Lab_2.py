@@ -1,6 +1,7 @@
 import time
 from graph import prrint_freg,count_frequencies
 
+#Алгоритм шифрования
 def affine_cipher_encrypt(plaintext, a, b, alphabet):
     ciphertext = ""
     for char in plaintext:
@@ -12,6 +13,7 @@ def affine_cipher_encrypt(plaintext, a, b, alphabet):
             ciphertext += char
     return ciphertext
 
+#Алгоритм дешифрования
 def affine_cipher_decrypt(ciphertext, a, b, alphabet):
     plaintext = ""
     for char in ciphertext:
@@ -25,23 +27,13 @@ def affine_cipher_decrypt(ciphertext, a, b, alphabet):
             plaintext += char
     return plaintext
 
-def count_frequencies(text, alphabet):
-    # функция для подсчета частот появления символов в тексте
-    frequencies = {char: 0 for char in alphabet}
-    for char in text:
-        if char in frequencies:
-            frequencies[char] += 1
-    return frequencies
-
 
 alphabet = "AĄBCĆDEĘFGHIJKLŁMNOÓPRSSŚTUWYZŹŻ"
 a = 5
 b = 7
 
-
 with open('Text.txt', 'r', encoding='utf-8') as f:
     text = f.read().upper()
-
 
 start_encrypt = time.time()
 ciphertext = affine_cipher_encrypt(text, a, b, alphabet)
@@ -57,10 +49,8 @@ print("Расшифрованный текст:",decrypted_plaintext)
 print("Encryption time:", end_encrypt - start_encrypt, "seconds")
 print("Decryption time:", end_decrypt - start_decrypt, "seconds")
 
-
 # подсчет частот символов
 plain_freq = count_frequencies(text, alphabet)
 cipher_freq = count_frequencies(ciphertext, alphabet)
-
 
 prrint_freg(plain_freq,cipher_freq)
